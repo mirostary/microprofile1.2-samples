@@ -85,7 +85,7 @@ public class ApplicationMetricsTest {
                 .createReader(new StringReader(response.readEntity(String.class)))
                 .readObject();
         
-        assertEquals(jsonObject.getInt("org.eclipse.microprofile12.metrics.application.UserResource.getUsers"), 2);
+        assertEquals(jsonObject.getInt("org.eclipse.microprofile12.metrics.application.UserResource.getUsers zdar"), 2);
         assertEquals(jsonObject.getInt("org.eclipse.microprofile12.metrics.application.UserResource.getUserCount"), 5);
     }
 

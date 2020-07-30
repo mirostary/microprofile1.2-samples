@@ -64,7 +64,6 @@ public class ConverterTest {
         System.out.println("Response: " + response);
         System.out.println("-------------------------------------------------------------------------");
 
-        assertTrue(false);
         assertTrue(
             response.contains("pojo.value : TestPojo{value=Value for Test Pojo}")
         );
